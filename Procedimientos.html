@@ -1,0 +1,139 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intranet | Recursos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f4f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #1B578C;
+      color: #fff;
+      padding: 60px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      position: relative;
+    }
+
+    header img {
+      max-height: 150px;
+      position: absolute;
+      left: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: #1B578C;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #1B578C;
+      color: white;
+    }
+
+    .container {
+      max-width: 1000px;
+      background-color: #ffffff;
+      margin: 40px auto;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #1B578C;
+      margin-bottom: 30px;
+    }
+
+    .file-link {
+      display: block;
+      background-color: #f9f9f9;
+      color: #1B578C;
+      border-left: 5px solid #1B578C;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .file-link:hover {
+      background-color: #e8f0f9;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      background-color: #f0f0f0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="\Users\User\Desktop\Intranet\DEN BLANCO Y AZUL.png" alt="Logo Empresa" />
+    <h1>Procedimientos</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="recursos.html">Formatos</a>
+    <a href="Manuales.html">Manuales</a>
+    <a href="Procedimientos.html">Procedimientos</a>
+  </nav>
+
+  <div class="container">
+    <h2>📁 Archivos Disponibles</h2>
+
+    <a class="file-link" href="archivos/corte_silca_planeacion.pdf" target="_blank">📄 Corte SILCA Planeación</a>
+    <a class="file-link" href="archivos/formato_solicitud.pdf" target="_blank">📝 Formato de Solicitud</a>
+  </div>
+
+  <footer>
+    &copy; 2025 DEN Consultores | Procedimientos
+  </footer>
+</body>
+</html>
